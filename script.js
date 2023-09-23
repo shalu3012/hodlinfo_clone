@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const tableBody = document.querySelector(".table-body");
 
-  fetch("http://localhost:5000/getItems")
+  fetch("https://hodlinfo-api-w6li.onrender.com/getItems/getItems")
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
